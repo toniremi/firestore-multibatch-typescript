@@ -72,7 +72,6 @@ class MultiBatch {
     }
 
     /**
-     * Overload set method implementation.
      * Executes a document set data write on the batch with options if we assign them
      * @param {Firestore.DocumentReference} ref - reference of the document to execute the set data action on
      * @param {Firestore.DocumentData} data - the document data to write on the operation
